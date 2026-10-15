@@ -1,0 +1,20 @@
+:root {
+  --ivory: #f7f5f0;
+  --navy: #151c2d;
+  --teal: #1c6259;
+  --teal-deep: #164f47;
+  --card: #eeeae2;
+  --line: #d8d9d2;
+  --muted: #5c646a;
+  --ink-soft: #3e484f;
+  --white: #ffffff;
+  --firm: #e7ebe4;
+  --firm-art: #d3ded3;
+  --focus: #151c2d;
+  --content: 1248px;
+  --radius: 20px;
+  --radius-sm: 12px;
+  --serif: Georgia, "Iowan Old Style", "Palatino Linotype", Palatino, serif;
+  --sans: "Segoe UI", system-ui, -apple-system, sans-serif;
+  --section: 96px;
+}

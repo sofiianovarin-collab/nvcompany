@@ -1,0 +1,171 @@
+.page-ct #inquiry {
+  scroll-margin-top: 120px;
+}
+
+.ct-hero {
+  padding: 36px 0 64px;
+}
+
+.ct-hero-grid {
+  display: grid;
+  grid-template-columns: 1.15fr 0.85fr;
+  gap: 48px 64px;
+  align-items: end;
+}
+
+.ct-hero h1 {
+  max-width: 10em;
+}
+
+.ct-hero .hero-actions {
+  margin-top: 32px;
+}
+
+.ct-hero-copy p {
+  margin: 0;
+  max-width: 34ch;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.ct-inquiry {
+  background: var(--white);
+  padding: var(--section) 0;
+}
+
+.ct-inquiry-grid {
+  display: grid;
+  grid-template-columns: 0.85fr 1.15fr;
+  gap: 40px 64px;
+  align-items: start;
+}
+
+.ct-inquiry h2 {
+  max-width: 12em;
+  font-size: clamp(36px, 4vw, 52px);
+}
+
+.ct-topics {
+  margin-top: 28px;
+}
+
+.dialogue-art {
+  display: block;
+  width: min(100%, 480px);
+  height: auto;
+  margin-top: 28px;
+}
+
+.ct-topics article {
+  padding: 18px 0;
+  border-top: 1px solid var(--line);
+}
+
+.ct-topics h3 {
+  font-size: 26px;
+}
+
+.ct-topics p {
+  margin: 8px 0 0;
+  color: var(--muted);
+  font-size: 16px;
+}
+
+.ct-form-panel {
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--ivory);
+  padding: 28px 28px 32px;
+}
+
+.ct-form-panel h2 {
+  margin-top: 0;
+}
+
+.req {
+  color: var(--teal);
+  font-size: 13px;
+}
+
+.field-hint,
+.field-error {
+  margin: 0;
+  font-size: 13px;
+}
+
+.field-hint {
+  color: var(--muted);
+}
+
+.field-error {
+  color: #8a2e2e;
+}
+
+input[aria-invalid="true"],
+select[aria-invalid="true"],
+textarea[aria-invalid="true"] {
+  border-color: #8a2e2e;
+}
+
+.ct-next {
+  background: var(--navy);
+  color: var(--ivory);
+  padding: var(--section) 0;
+}
+
+.ct-next .eyebrow,
+.ct-next h2,
+.ct-next h3 {
+  color: var(--ivory);
+}
+
+.ct-next .eyebrow {
+  color: #c9ddd2;
+}
+
+.ct-next .section-intro > p,
+.ct-next-grid p {
+  color: #c5ced8;
+}
+
+.ct-next :focus-visible {
+  outline-color: var(--ivory);
+}
+
+.ct-next-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 28px;
+}
+
+.ct-next-grid article {
+  border-top: 1px solid #616676;
+  padding-top: 18px;
+}
+
+.ct-next-grid h3 {
+  font-size: 28px;
+}
+
+.ct-next-grid p {
+  margin: 12px 0 0;
+  font-size: 15px;
+  line-height: 1.55;
+}
+
+@media (max-width: 900px) {
+  .ct-hero-grid,
+  .ct-inquiry-grid,
+  .ct-next-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .ct-hero-grid {
+    align-items: start;
+  }
+
+  .ct-form-panel {
+    padding: 22px 18px 26px;
+  }
+}
+

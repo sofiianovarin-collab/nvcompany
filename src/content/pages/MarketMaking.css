@@ -1,0 +1,328 @@
+.page-mm .site-nav a.is-here {
+  color: var(--teal);
+  box-shadow: inset 0 -1px 0 var(--teal);
+}
+
+.crumb {
+  margin: 0 0 28px;
+}
+
+.crumb ol {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  color: var(--muted);
+  font-size: 13px;
+}
+
+.crumb a:hover {
+  color: var(--teal);
+}
+
+.crumb [aria-current="page"] {
+  color: var(--navy);
+}
+
+.mm-hero {
+  padding: 36px 0 72px;
+}
+
+.mm-hero-grid {
+  display: grid;
+  grid-template-columns: 1.15fr 0.85fr;
+  gap: 48px 64px;
+  align-items: start;
+}
+
+.mm-hero h1 {
+  max-width: 11em;
+}
+
+.mm-scope {
+  margin: 28px 0 0;
+  max-width: 28ch;
+  color: var(--muted);
+  font-size: 18px;
+}
+
+.mm-hero .hero-actions {
+  margin-top: 28px;
+}
+
+.mm-hero-copy p {
+  margin: 8px 0 0;
+  max-width: 36ch;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.book {
+  margin: 28px 0 0;
+}
+
+.book-sides {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 8px 8px;
+  color: var(--teal);
+  font-size: 11px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.book-sides span:last-child {
+  color: var(--muted);
+}
+
+.book svg {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.book figcaption {
+  margin: 8px 0 0;
+  color: var(--muted);
+  font-size: 11px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.mm-mandates {
+  padding-bottom: var(--section);
+}
+
+.mm-card p {
+  margin-bottom: 18px;
+}
+
+.mm-scope-line {
+  margin-top: auto;
+  color: var(--teal);
+  font-size: 13px;
+  letter-spacing: 0.04em;
+}
+
+.mm-quote {
+  background: var(--white);
+  padding: var(--section) 0;
+}
+
+.mm-steps {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 32px;
+}
+
+.mm-steps article {
+  border-top: 1px solid var(--line);
+  padding-top: 22px;
+}
+
+.mm-steps h3 {
+  font-size: 30px;
+}
+
+.mm-steps p {
+  margin: 12px 0 0;
+  color: var(--muted);
+  font-size: 16px;
+}
+
+.mm-risk {
+  padding: var(--section) 0;
+}
+
+.mm-risk-grid {
+  display: grid;
+  grid-template-columns: 0.9fr 1.1fr;
+  gap: 64px;
+  align-items: start;
+}
+
+.mm-risk h2 {
+  max-width: 14em;
+}
+
+.control-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.control-list li {
+  padding: 16px 0;
+  border-top: 1px solid var(--line);
+}
+
+.control-list li:last-child {
+  border-bottom: 1px solid var(--line);
+}
+
+.control-list h3 {
+  font-size: 26px;
+}
+
+.control-list p {
+  margin: 6px 0 0;
+  color: var(--muted);
+  font-size: 16px;
+}
+
+.mm-note {
+  margin: 22px 0 0;
+  max-width: 48ch;
+  color: var(--muted);
+  font-size: 16px;
+}
+
+.mm-report details {
+  margin-top: 28px;
+  border-top: 1px solid #616676;
+  padding-top: 16px;
+}
+
+.mm-report summary {
+  width: fit-content;
+  color: #c9ddd2;
+  cursor: pointer;
+  font-size: 15px;
+  list-style: none;
+}
+
+.mm-report summary::marker {
+  content: "";
+}
+
+.mm-report summary::before {
+  content: "+  ";
+}
+
+.mm-report summary::-webkit-details-marker {
+  display: none;
+}
+
+.mm-structure {
+  margin-top: 18px;
+  background: var(--card);
+  color: var(--navy);
+  border-radius: var(--radius);
+  padding: 24px 28px;
+}
+
+.mm-structure .report-flag {
+  margin-bottom: 8px;
+}
+
+.mm-structure p {
+  margin: 0 0 16px;
+  color: var(--ink-soft);
+  font-size: 15px;
+}
+
+.mm-structure dl {
+  margin: 0;
+}
+
+.mm-structure dt {
+  margin-top: 12px;
+  font-size: 14px;
+  font-weight: 650;
+}
+
+.mm-structure dd {
+  margin: 4px 0 0;
+  color: var(--ink-soft);
+  font-size: 15px;
+}
+
+.mm-process {
+  padding: var(--section) 0 72px;
+}
+
+.mm-process h2 {
+  max-width: 14em;
+}
+
+.mm-faq {
+  background: var(--firm);
+  padding: var(--section) 0;
+}
+
+.mm-faq-grid {
+  display: grid;
+  grid-template-columns: 0.8fr 1.2fr;
+  gap: 48px;
+  align-items: start;
+}
+
+.mm-faq h2 {
+  max-width: 9em;
+}
+
+.mm-faq details {
+  border-top: 1px solid #becabd;
+}
+
+.mm-faq details:last-child {
+  border-bottom: 1px solid #becabd;
+}
+
+.mm-faq summary {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  padding: 16px 0;
+  cursor: pointer;
+  font-size: 16px;
+  list-style: none;
+}
+
+.mm-faq summary::-webkit-details-marker {
+  display: none;
+}
+
+.mm-faq summary::after {
+  content: "+";
+  color: var(--teal);
+  font-size: 22px;
+  line-height: 1;
+}
+
+.mm-faq details[open] summary::after {
+  content: "–";
+}
+
+.mm-faq details p {
+  margin: 0 0 16px;
+  max-width: 62ch;
+  color: var(--ink-soft);
+  font-size: 16px;
+}
+
+.service-context {
+  margin: -8px 0 16px;
+  color: var(--teal);
+  font-size: 14px;
+}
+
+@media (max-width: 900px) {
+  .mm-hero-grid,
+  .mm-steps,
+  .mm-risk-grid,
+  .mm-faq-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .mm-hero h1,
+  .mm-risk h2,
+  .mm-process h2,
+  .mm-faq h2 {
+    max-width: none;
+  }
+}
+
